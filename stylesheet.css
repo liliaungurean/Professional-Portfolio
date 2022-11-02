@@ -8,11 +8,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(246, 236, 236);
 }
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(187, 187, 187);
-    text-align: center;
-}
+
 /*this is good*/
 #first{
     display: flex;
@@ -42,15 +38,33 @@ h1 {
     bottom: -6px;
     transition: 1.0s;
 }
+
 .directly ul li a:hover::after{
     width: 100%;
 }
-.name img {
+.name{
+    margin-top: 15px;
+    font-size: 30px;
+}
+.name h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245, 248, 247);
+    margin-top: 500px;
+    margin-left: 200px;
+}
+/*header section */
+.colum-1 img {
     width: 200px;
     height: auto;
-    border-radius: 20px;
-    float: left;
-    margin-right: 20px;
+}
+#about {
+    padding: 70px;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #myself {
