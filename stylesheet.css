@@ -1,18 +1,75 @@
-body
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(246, 236, 236);
+}
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(21, 110, 84);
+    color: rgb(187, 187, 187);
     text-align: center;
 }
+/*this is good*/
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.directly ul li{
+    display:inline;
+    list-style: none;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+}
+.directly ul li a{
+    color: rgb(2, 88, 75);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+.directly ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #035821;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 1.0s;
+}
+.directly ul li a:hover::after{
+    width: 100%;
+}
 .name img {
-    width: 50%;
+    width: 200px;
     height: auto;
     border-radius: 20px;
     float: left;
     margin-right: 20px;
 }
+
+#myself {
+    position: fixed; 
+    top:50px; 
+    left: 0; 
+    width: 50px; 
+    height:50px
+    
+}
+
 .contact-me img {
     width: 30px;
     height: auto;
     float: left;
+}
+.button {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    border: 1px dashed darkgreen;
 }
