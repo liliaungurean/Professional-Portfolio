@@ -47,6 +47,7 @@ body {
 .name{
     margin-top: 15px;
     font-size: 30px;
+    display: inline;
 }
 .name h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -55,10 +56,9 @@ body {
     margin-left: 200px;
 }
 .name img{
-    margin: 30px 0;
-    display: inline;
-    width: 50%;
+    width: 40%;
     height: auto;
+    display: inline;
     float: right;
 }
 /*header section */

@@ -2,35 +2,29 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Description: This project was created to give you an insight on my background education, work experience and something about me. This project challenged me to create a user-friendly page where you are able to learn more about me. It allowed me to put the words, functions, codes, and style into action. It allowed me to execute all types of resources (videos, and website that I might encounter on a daily basis.
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Desription](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+There are no requirements for installation for this project. All that is needed to be done is open the page in a desired web browser.
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+When you open the website you should be provided with my name displayed on the initial page. Clicking the headers at the top allows user to skip directly to the section they want to know more about. Scrolling down allows the user to view my portfolio from top to bottom. Clicking on the images in the project section will directly take you to my GitHub containing that repository. The links at the bottom will directly take you to my GitHub, allow you to call me by directly clicking my phone number and email me by clicking my email.
+    
+    [alt text](images/Assets/header.png)
+    [projects](images/Assets/project.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
@@ -64,21 +58,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+If you would like to contribute to this project there are 3 ways to get in contact with me. Feel free to contact me with any changes suggestions on how to improve and make this page more user friendly.
