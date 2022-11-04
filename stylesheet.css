@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -55,8 +56,8 @@ body {
 .name h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(245, 248, 247);
-    margin-top: 500px;
-    margin-left: 200px;
+    margin-top: 450px;
+    margin-left: 100px;
 }
 
 /*header section */
@@ -89,11 +90,10 @@ h3 {
     color: #035821;
 }
  p{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
  }
-
 #myself {
     position: fixed; 
     top:50px; 
@@ -120,34 +120,17 @@ h3 {
     display: block;
 }
 /*education*/
-.myeducation{
-    flex-basis: 40%;
+#education{
+    padding: 20px 0;
+    color: aliceblue;
 }
-.myeducation img {
-    width: 60%;
-    border-radius: 20px;
-}
-.abouted{
-    flex-basis: 60%;
-}
-/*
+
 .myeducation{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.myeducation p{
-    justify-content: flex-end;
-}
-.myeducation ul li{
-    margin: 30px -100px;
-    justify-content: flex-start;
-}
-.myeducation img{
-    width: 10%;
-    height: auto;
-    margin: 0px 50px;
-    border-radius: 20px;
-}
-*/
+
 /*contact me*/
 
 .contact-me{
@@ -182,3 +165,66 @@ h3 {
 .button:hover{
     background: #035821;
 }
+
+/* footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer p {
+    margin: 30px 30px;
+    font-size: 20px;
+}
+@media screen and (max-width:1000px){
+    .name h1 {
+        font-size: 36px;
+        line-height: 50px;
+        padding: 100 0;
+    }
+    h2 {
+        font-size: 20px;
+        align-items: center;
+        padding: 0 0;
+    }
+    .directly{
+        font-size: 12px;
+        display: none;}
+    .colum-1 img {
+        width: 300px;
+        border-radius: 20px;
+        margin-left: -30;}
+    #about{
+        padding: 5px 5px;
+    }
+
+       .contact-me{
+        display: block;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-gap: 15px;
+        margin-top: 15px;
+        text-decoration: none;
+        }
+        .contact-me div{
+            background: rgb(238, 231, 231);
+            padding: 10px 60px;
+            border-radius: 20px;
+            display: block;
+            margin: 0 5;
+            font-size: 12px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    .contact-me div img{
+        margin: -10 -10;
+    }
+    .button{
+        margin: 25px 25px;
+        display: inline;
+        padding: 0;
+    }
+}
+    
