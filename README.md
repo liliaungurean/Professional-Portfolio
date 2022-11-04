@@ -22,18 +22,16 @@ There are no requirements for installation for this project. All that is needed 
 
 When you open the website you should be provided with my name displayed on the initial page. Clicking the headers at the top allows user to skip directly to the section they want to know more about. Scrolling down allows the user to view my portfolio from top to bottom. Clicking on the images in the project section will directly take you to my GitHub containing that repository. The links at the bottom will directly take you to my GitHub, allow you to call me by directly clicking my phone number and email me by clicking my email.
     
-    [alt text](images/Assets/header.png)
+    [Project 1](images/Assets/header.png)
     [projects](images/Assets/project.png)
 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+-- https://linuxhint.com/align-image-right-css/#:~:text=Method%201%3A%20Use%20float%20Property,or%20not%20in%20any%20way.
+--https://www.youtube.com/watch?v=4fw6a2yLvXU&t=0s
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
+--[U of M boot cmap logo] https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/444/original/minnesota-profile2019.png
 ## License
 
 MIT License
