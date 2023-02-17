@@ -21,9 +21,6 @@ There are no requirements for installation for this project. All that is needed 
 ## Usage
 
 When you open the website you should be provided with my name displayed on the initial page. Clicking the headers at the top allows user to skip directly to the section they want to know more about. Scrolling down allows the user to view my portfolio from top to bottom. Clicking on the images in the project section will directly take you to my GitHub containing that repository. The links at the bottom will directly take you to my GitHub, allow you to call me by directly clicking my phone number and email me by clicking my email.
-    
-    [Project 1](images/Assets/header.png)
-    [projects](images/Assets/project.png)
 
 
 ## Credits
